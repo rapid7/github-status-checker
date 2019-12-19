@@ -19,5 +19,5 @@ __Coming soon!__
 
 ## Changelog
 
-* 0.1.0 - Initial development
+* 0.1.0 - Initial development, support Summary 
 
