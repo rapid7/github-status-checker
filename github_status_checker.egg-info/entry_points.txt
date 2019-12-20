@@ -1,0 +1,3 @@
+[console_scripts]
+github-status = github_status_checker.__main__:main
+
