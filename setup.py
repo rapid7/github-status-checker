@@ -15,7 +15,6 @@ setup(
     license='MIT',
     packages=find_packages(),
     install_requires=[
-        "click~=7.0",
         "requests~=2.0"
     ],
     include_package_data=True,
