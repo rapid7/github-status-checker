@@ -11,7 +11,7 @@ class Commands(object):
         summary: Summary = api.get_summary()
 
         for c in summary.components:
-            if component in c.name.lower().split(" "):
+            if component in c.name.lower():
                 return c
 
     @staticmethod
