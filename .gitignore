@@ -1,2 +1,5 @@
 **/*.pyc
 .idea/
+github_status_checker.egg-info/
+build/
+dist/
