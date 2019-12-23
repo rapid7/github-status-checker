@@ -15,6 +15,10 @@ class API(object):
 
     @classmethod
     def new(cls):
+        """
+        Instantiate a new GitHub Status API object
+        :return: GitHub Status API object
+        """
         session = Session()
         retries = Retry(total=5,
                         backoff_factor=0.2)
@@ -25,6 +29,10 @@ class API(object):
         return cls(session=session)
 
     def get_summary(self) -> Summary:
+        """
+        Get a status summary for GitHub services
+        :return: Summary
+        """
         request = self.session.prepare_request(Request(method="GET",
                                                        url=f"{self._ENDPOINT}/summary.json"))
 
