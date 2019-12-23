@@ -1,14 +1,11 @@
 import argparse
 
-from pkg_resources import get_distribution
-
 from github_status_checker.controllers.commands import Commands
 
 
 def main():
-    version_string = get_distribution('insightconnect-integrations-validators')
-    argparser = argparse.ArgumentParser(epilog=version_string,
-                                        description="Status checker for GitHub")
+    argparser = argparse.ArgumentParser(prog="GitHub Status Checker 0.1.0",
+                                        description="Check the status of various GitHub services.")
 
     argparser.add_argument("component",
                            help="Component to check",
