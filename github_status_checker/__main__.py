@@ -9,12 +9,19 @@ def main():
 
     argparser.add_argument("component",
                            help="Component to check",
-                           choices=["webhooks","actions"],
+                           choices=["git",
+                                    "api",
+                                    "webhooks",
+                                    "issues_prs_projects",
+                                    "actions",
+                                    "packages",
+                                    "pages",
+                                    "other"],
                            action="store",
                            type=str)
 
     args = argparser.parse_args()
-    Commands.check(component=args.component)
+    Commands.check(component_arg=args.component)
 
 
 if __name__ == "__main__":
