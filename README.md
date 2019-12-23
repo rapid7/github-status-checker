@@ -15,7 +15,9 @@ $ pip install github-status-checker
 
 ## Usage
 
-__Coming soon!__
+```
+$ github-status webhooks
+```
 
 ## Changelog
 
