@@ -10,13 +10,15 @@ A tool and Python module for checking the status of GitHub.
 ### Install the module via `pip`
 
 ```
-$ pip install github-status-checker
+moose@rapid7:~$ pip install github-status-checker
+...
 ```
 
 ## Usage
 
 ```
-$ github-status webhooks
+moose@rapid7:~$ github-status webhooks
+Service 'Webhooks' is currently operational!
 ```
 
 ## Changelog
