@@ -1,5 +1,3 @@
-from dataclasses import dataclass
-
 from github_status_checker.models.component import Component
 from github_status_checker.models.incident import Incident
 from github_status_checker.models.page import Page
@@ -7,13 +5,19 @@ from github_status_checker.models.scheduled_maintenance import ScheduledMaintena
 from github_status_checker.models.status import Status
 
 
-@dataclass
-class Summary:
-    page: Page
-    components: [Component]
-    incidents: [Incident]
-    scheduled_maintenances: [ScheduledMaintenance]
-    status: Status
+class Summary(object):
+
+    def __init__(self,
+                 page: Page,
+                 components: [Component],
+                 incidents: [Incident],
+                 scheduled_maintenances: [ScheduledMaintenance],
+                 status: Status):
+        self.page = page
+        self.components = components
+        self.incidents = incidents
+        self.scheduled_maintenances = scheduled_maintenances
+        self.status = status
 
     @classmethod
     def from_json(cls, json_: dict):

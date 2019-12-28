@@ -7,7 +7,7 @@ class Commands(object):
     @staticmethod
     def _get_component_by_arg(component: str) -> str:
         """
-        Lookup a component ID based on command line arg
+        Lookup a component ID based on command line args
         :param component: Component
         :return: Component ID
         """

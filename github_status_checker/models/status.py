@@ -1,10 +1,10 @@
-from dataclasses import dataclass
+class Status(object):
 
-
-@dataclass
-class Status:
-    indicator: str
-    description: str
+    def __init__(self,
+                 indicator: str,
+                 description: str):
+        self.indicator = indicator
+        self.description = description
 
     @classmethod
     def from_json(cls, json_: dict):
