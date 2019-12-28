@@ -21,5 +21,6 @@ $ github-status webhooks
 
 ## Changelog
 
+* 0.1.1 - Swap dataclasses for traditional classes due to Python version incompatibilities
 * 0.1.0 - Initial development, support Summary 
 

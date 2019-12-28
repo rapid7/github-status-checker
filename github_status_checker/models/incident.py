@@ -17,7 +17,6 @@ class Incident(object):
                  shortlink: str,
                  status: str,
                  updated_at: str):
-
         self.created_at = created_at
         self.id = id
         self.impact = impact
@@ -29,7 +28,6 @@ class Incident(object):
         self.shortlink = shortlink
         self.status = status
         self.updated_at = updated_at
-
 
     @classmethod
     def from_json(cls, json_: dict):
