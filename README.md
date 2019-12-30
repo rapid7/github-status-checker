@@ -23,7 +23,7 @@ Service 'Webhooks' is currently operational!
 
 ## Changelog
 
-* 0.1.1 - Swap dataclasses for traditional classes for greater Python version 
+* 1.0.0 - Swap dataclasses for traditional classes for greater Python version 
 compatibility (Python 3.x+)
 * 0.1.0 - Initial development, support Summary 
 

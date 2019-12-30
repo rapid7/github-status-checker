@@ -5,7 +5,7 @@ with open("README.md") as fh:
 
 setup(
     name="github_status_checker",
-    version="0.1.1",
+    version="1.0.0",
     description="Python module/tool for checking the status of GitHub.",
     long_description=long_description,
     long_description_content_type="text/markdown",
