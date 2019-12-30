@@ -15,4 +15,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest tests/
+        pytest tezts/
