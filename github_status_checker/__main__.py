@@ -6,6 +6,7 @@ from github_status_checker.controllers.commands import Commands
 def main():
     argparser = argparse.ArgumentParser(
         prog="github-status <component>",
+        epilog="Version 1.0.0",
         description="Check the status of various GitHub services.")
 
     argparser.add_argument("component",
