@@ -13,6 +13,6 @@ jobs:
       with:
         python-version: 3.7
     - name: Test with pytest
-        run: |
-          pip install pytest
-          pytest
+      run: |
+        pip install pytest
+        pytest
