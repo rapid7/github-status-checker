@@ -5,7 +5,7 @@ from github_status_checker.models.scheduled_maintenance import ScheduledMaintena
 from github_status_checker.models.status import Status
 
 
-class Summary(object):
+class Summary:
 
     def __init__(self,
                  page: Page,

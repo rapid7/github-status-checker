@@ -1,7 +1,7 @@
 from github_status_checker.models.incident_update import IncidentUpdate
 
 
-class ScheduledMaintenance(object):
+class ScheduledMaintenance:
 
     def __init__(self,
                  created_at: str,

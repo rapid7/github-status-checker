@@ -1,4 +1,4 @@
-class Status(object):
+class Status:
 
     def __init__(self,
                  indicator: str,

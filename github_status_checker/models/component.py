@@ -3,7 +3,7 @@ from typing import Optional, Any
 from github_status_checker.models.component_status import ComponentStatus
 
 
-class Component(object):
+class Component:
 
     def __init__(self,
                  created_at: str,

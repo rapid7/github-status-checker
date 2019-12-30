@@ -1,4 +1,4 @@
-class Page(object):
+class Page:
 
     def __init__(self,
                  id: str,

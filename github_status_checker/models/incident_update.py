@@ -1,4 +1,4 @@
-class IncidentUpdate(object):
+class IncidentUpdate:
     body: str
     created_at: str
     display_at: str

@@ -3,7 +3,7 @@ from typing import Optional
 from github_status_checker.models.incident_update import IncidentUpdate
 
 
-class Incident(object):
+class Incident:
 
     def __init__(self,
                  created_at: str,
