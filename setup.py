@@ -5,13 +5,13 @@ with open("README.md") as fh:
 
 setup(
     name="github_status_checker",
-    version="1.0.0",
+    version="1.0.1",
     description="Python module/tool for checking the status of GitHub.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='Integration Alliance',
+    author='Rapid7 Integration Alliance',
     author_email='integrationalliance@rapid7.com',
-    url='https://github.com/rapid7/icon-integrations-ci',
+    url='https://github.com/rapid7/github-status-checker',
     license='MIT',
     packages=find_packages(),
     install_requires=[
