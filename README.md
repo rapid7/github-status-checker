@@ -2,6 +2,9 @@
 # GitHub Status Checker
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![Tests](https://github.com/rapid7/github-status-checker/workflows/Tests/badge.svg)
+![Python Lint](https://github.com/rapid7/github-status-checker/workflows/Python%20Lint/badge.svg)
+![Markdown Lint](https://github.com/rapid7/github-status-checker/workflows/Markdown%20Lint/badge.svg)
 
 ## What this is
 
