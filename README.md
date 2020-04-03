@@ -25,10 +25,11 @@ Service 'Webhooks' is currently operational!
 
 ## Contributions
 
-Contributions are welcome! This project utilizes [black](https://github.com/psf/black) and
-[pre-commit](https://pre-commit.com/) for handling code
-style. Simply follow the instructions for installing pre-commit and run `pre-commit install` in the repository after
-cloning and you will be on your way to contributing!
+Contributions are welcome! This project utilizes [black](https://github.com/psf/black)
+and [pre-commit](https://pre-commit.com/) for handling code
+style. Simply follow the instructions for installing pre-commit and 
+run `pre-commit install` in the repository after cloning and you will
+be on your way to contributing!
 
 ## Changelog
 
