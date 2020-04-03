@@ -33,7 +33,8 @@ be on your way to contributing!
 
 ## Changelog
 
-* 1.0.2 - Update to handle crash on outage report | Code style: black | Add contribution section
+* 1.0.2 - Update to handle crash on outage report | Code style: black
+| Add contribution section
 * 1.0.1 - Update homepage and author name
 * 1.0.0 - Swap dataclasses for traditional classes for greater Python version 
 compatibility (Python 3.x+)
