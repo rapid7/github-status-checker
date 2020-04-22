@@ -50,33 +50,35 @@ Service 'Other' is currently operational!
 
 ## Programmatic Usage
 
-In addition to being a functional command line tool, github-status-checker can also be used programmatically
-to interact with [https://www.githubstatus.com/](https://www.githubstatus.com/) in a Pythonic fashion.
+In addition to being a functional command line tool, github-status-checker
+can also be used programmatically
+to interact with [https://www.githubstatus.com/](https://www.githubstatus.com/)
+in a Pythonic fashion.
 
 ```python
 from github_status_checker.api import API
 
 api = API.new()
 summary = api.get_summary()
-print(f"Component '{summary.components[0].name}' is for {summary.components[0].description}") 
+print(f"Component '{summary.components[0].name}' is for {summary.components[0].description}")
 ```
 
 ## Contributions
 
 Contributions are welcome! This project utilizes [black](https://github.com/psf/black)
 and [pre-commit](https://pre-commit.com/) for handling code
-style. Simply follow the instructions for installing pre-commit and 
+style. Simply follow the instructions for installing pre-commit and
 run `pre-commit install` in the repository after cloning and you will
 be on your way to contributing!
 
 ## Changelog
 
-* 2.0.0 - Updated CLI grammar to add "check" and "summary" commands 
+* 2.0.0 - Updated CLI grammar to add "check" and "summary" commands
 | Added option to get verbose status report with "check" command
 * 1.0.2 - Update to handle crash on outage report | Code style: black
 | Add contribution section
 * 1.0.1 - Update homepage and author name
-* 1.0.0 - Swap dataclasses for traditional classes for greater Python version 
+* 1.0.0 - Swap dataclasses for traditional classes for greater Python version
 compatibility (Python 3.x+)
-* 0.1.0 - Initial development, support Summary 
+* 0.1.0 - Initial development, support Summary
 
