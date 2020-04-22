@@ -7,9 +7,7 @@
 ![Python Lint](https://github.com/rapid7/github-status-checker/workflows/Python%20Lint/badge.svg)
 ![Markdown Lint](https://github.com/rapid7/github-status-checker/workflows/Markdown%20Lint/badge.svg)
 
-## What this is
-
-A tool and Python module for checking the status of GitHub.
+_A tool and Python module for checking the status of GitHub._
 
 ## Installation
 
