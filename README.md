@@ -69,6 +69,8 @@ style. Simply follow the instructions for installing pre-commit and
 run `pre-commit install` in the repository after cloning and you will
 be on your way to contributing!
 
+The versioning strategy used for the project is [semver](https://semver.org).
+
 ## Changelog
 
 * 2.0.0 - Updated CLI grammar to add "check" and "summary" commands
