@@ -9,7 +9,7 @@ def main():
     argparser = argparse.ArgumentParser(
         prog="github-status <component> | <summary>",
         epilog=f"Version {VERSION}",
-        description="Check the status of various GitHub services.",
+        description="Check the status of various GitHub services",
     )
 
     subparsers = argparser.add_subparsers(help="Commands")
