@@ -15,7 +15,7 @@ A tool and Python module for checking the status of GitHub.
 
 ### Install the module via `pip`
 
-```
+```console
 moose@rapid7:~$ pip install github-status-checker
 ...
 ```
