@@ -22,12 +22,12 @@ moose@rapid7:~$ pip install github-status-checker
 
 ## CLI Usage
 
-```
+```shell script
 moose@rapid7:~$ github-status check -c webhooks
 Service 'Webhooks' is currently operational!
 ```
 
-```
+```shell script
 moose@rapid7:~$ github-status check -c git -v
 Report for service 'Git Operations':
 - Description: Performance of git clones, pulls, pushes, and associated operations
@@ -35,7 +35,7 @@ Report for service 'Git Operations':
 - Last status update: 2020-04-21T16:48:14.527Z
 ```
 
-```
+```shell script
 moose@rapid7:~$ github-status summary
 Service 'Git Operations' is currently operational!
 Service 'API Requests' is currently operational!
