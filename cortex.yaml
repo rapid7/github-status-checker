@@ -1,0 +1,15 @@
+---
+info:
+  title: Github Status Checker
+  description: Status Checker tool for GitHub. Uses https://www.githubstatus.com/api
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/github-status-checker
+  x-cortex-tag: github-status-checker
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: soar
+openapi: 3.0.1
+servers:
+- url: "/"
