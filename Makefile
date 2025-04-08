@@ -1,8 +1,7 @@
 packagedeps:
 	python3 -m pip install --user --upgrade setuptools wheel twine
 
-package:
-	rm -rf dist/
+package: clean
 	python3 setup.py sdist bdist_wheel
 
 disttest: package

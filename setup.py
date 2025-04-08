@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
+from github_status_checker import VERSION
 
 with open("README.md") as fh:
     long_description = fh.read()
 
 setup(
     name="github_status_checker",
-    version="1.0.2",
+    version=VERSION,
     description="Python module/tool for checking the status of GitHub.",
     long_description=long_description,
     long_description_content_type="text/markdown",
