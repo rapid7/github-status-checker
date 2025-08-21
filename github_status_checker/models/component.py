@@ -13,6 +13,7 @@ class Component:
                  page_id: str,
                  position: int,
                  status: ComponentStatus,
+                 start_date: str,
                  updated_at: str,
                  showcase: bool,
                  group_id: Any,
@@ -26,6 +27,7 @@ class Component:
         self.page_id = page_id
         self.position = position
         self.status = status
+        self.start_date = start_date
         self.updated_at = updated_at
         self.showcase = showcase
         self.group_id = group_id

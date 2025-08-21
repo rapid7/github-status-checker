@@ -13,7 +13,6 @@ class Commands(object):
         "actions": "br0l2tvcx85d",
         "packages": "st3j38cctv9l",
         "pages": "vg70hn9s2tyj",
-        "other": "5l5rlzqm4yzy"
     }
 
     @staticmethod

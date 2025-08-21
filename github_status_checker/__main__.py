@@ -17,8 +17,7 @@ def main():
                                     "issues_prs_projects",
                                     "actions",
                                     "packages",
-                                    "pages",
-                                    "other"],
+                                    "pages"],
                            action="store",
                            type=str)
 

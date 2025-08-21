@@ -11,5 +11,8 @@ disttest: package
 distprod: package
 	python3 -m twine upload dist/*
 
+test:
+	python3 -m unittest discover -s tests
+
 clean:
 	rm -rf .pytest_cache/ dist/ *.egg-info/
